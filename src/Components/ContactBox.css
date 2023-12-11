@@ -1,0 +1,47 @@
+.contact-app-box-template {
+  display: flex;
+  gap: 5px;
+  background-color: #fff;
+  padding: 10px;
+  height: 80px;
+  width: 250px;
+  /* box-shadow: 0 0 10px #ddd; */
+  border: 1px solid tomato;
+  border-radius: 4px;
+}
+
+.contact-app-box-image {
+  width: 30%;
+}
+.contact-app-box-image img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.contact-app-box-info {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.contact-app-contact-person {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.contact-app-contact-person a svg {
+  background: purple;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+@media (max-width: 580px) {
+  .contact-app-box-template {
+    width: 100%;
+  }
+}
